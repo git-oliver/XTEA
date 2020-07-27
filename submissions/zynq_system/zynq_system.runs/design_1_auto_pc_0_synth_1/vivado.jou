@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Fri Jul  3 14:13:48 2020
+# Process ID: 9764
+# Current directory: C:/Users/s0559122/Desktop/oliver_en_de/zynq_system/zynq_system.runs/design_1_auto_pc_0_synth_1
+# Command line: vivado.exe -log design_1_auto_pc_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_auto_pc_0.tcl
+# Log file: C:/Users/s0559122/Desktop/oliver_en_de/zynq_system/zynq_system.runs/design_1_auto_pc_0_synth_1/design_1_auto_pc_0.vds
+# Journal file: C:/Users/s0559122/Desktop/oliver_en_de/zynq_system/zynq_system.runs/design_1_auto_pc_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_auto_pc_0.tcl -notrace
