@@ -1,5 +1,3 @@
-Noch nicht fertig
-
 # Extended Tiny Encryption Algorithm (XTEA)
 
 ## Questions and reports to 
@@ -12,7 +10,7 @@ This repository was a project of my University [HTW-Berlin](https://www.htw-berl
 
 Each algorithm is written in a single VHDL-File, can be found in folder software. There are no Testbench available, but I tested both VHDL-Files intensively. All the code was running on a [ZedBoard Zynq-7000 ARM/FPGA SoC Development Board](https://www.xilinx.com/products/boards-and-kits/1-elhabt.html.html) which has a ARM-Controller on board. On this ARM-Controller runs a Petalinux. Maybe others Linux Distribution works alao. The C-Code for communicating with the FPGA is also available on folder software.
 
-![Zynq Board](image/img_zynq_board.png "Zynq-7000 Board")
+![Zynq Board](images/img_zynq_board.png "Zynq-7000 Board")
 
 XTEA has a loop in it, but implementing loops on a FPGA is difficult. Therefore I choose 64 steps for each algorithm encrypting & decrypting, before the user is allowed to choose this and the FPGA has no more space on it. So I used the maximum of XTEA for this FPGA.
 All of the VHDL-Code was written with Vivado.
@@ -43,7 +41,7 @@ arm-linux-gnueabihf-gcc testcode.c -o output
 ```
 The Code should compile without any warnings or errors. Incase of problems contact me. 
 
-![C_Code](image/c_code.png "Code to compile")
+![C_Code](images/c_code.png "Code to compile")
 
 ### 2.
 Transfer the compiled hex-code (in my case **output**) to the ARM-Controller (Petalinux).
@@ -55,7 +53,7 @@ Open Vivado and load the file
 submissions/zynq-system/zynq_system.xpr
 ```
 It should look like on the picture. I used a another path so keep clear of confusion.
-![VHDL](image/vhdl.png "VHDL img")
+![VHDL](images/vhdl.png "VHDL img")
 
 Then flash the Code to the FPGA. For this no Bitstream-File or anything needed. First we need to connect the Board with Viado.
 On the left side by 
@@ -75,7 +73,7 @@ After this we can execute the program on Petalinux. Normally this should work pe
 ```
 ./output
 ```
-![output](image/output.png "Execution img")
+![output](images/output.png "Execution img")
 
 ## Conclusion
 With this project it is possible to create a prototype for a encryption & decryption device. Maybe for transfering very sensitive data which can be decrypted only with custom hardware.
