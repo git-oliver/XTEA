@@ -164,7 +164,7 @@ proc create_root_design { parentCell } {
   # Create ports
 
   # Create instance: myip_0, and set properties
-  set myip_0 [ create_bd_cell -type ip -vlnv fhtw-berlin.de:user:myip:1.0 myip_0 ]
+  set myip_0 [ create_bd_cell -type ip -vlnv htw-berlin.de:user:myip:1.0 myip_0 ]
 
   # Create instance: processing_system7_0, and set properties
   set processing_system7_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0 ]

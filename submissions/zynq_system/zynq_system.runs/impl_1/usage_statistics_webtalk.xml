@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Fri Jul  3 14:27:09 2020'>
+<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Wed Jul 29 16:53:19 2020'>
 <section name="__ROOT__" level="0" order="1" description="">
  <section name="software_version_and_target_device" level="1" order="1" description="">
   <keyValuePair key="beta" value="FALSE" description="" />
   <keyValuePair key="build_version" value="2729669" description="" />
-  <keyValuePair key="date_generated" value="Fri Jul  3 14:27:08 2020" description="" />
+  <keyValuePair key="date_generated" value="Wed Jul 29 16:53:18 2020" description="" />
   <keyValuePair key="os_platform" value="WIN64" description="" />
   <keyValuePair key="product_version" value="Vivado v2019.2.1 (64-bit)" description="" />
-  <keyValuePair key="project_id" value="f9ed0d1c15964c90bfcbe3642d99fc31" description="" />
+  <keyValuePair key="project_id" value="f07f8c3f0b3f4dcfa480bade50173702" description="" />
   <keyValuePair key="project_iteration" value="1" description="" />
-  <keyValuePair key="random_id" value="284739fc98af5ed39e4638c3e79a6879" description="" />
-  <keyValuePair key="registration_id" value="177243986_174127598_0_357" description="" />
+  <keyValuePair key="random_id" value="b2ecf7461c6f528499ac60b35d809687" description="" />
+  <keyValuePair key="registration_id" value="b2ecf7461c6f528499ac60b35d809687" description="" />
   <keyValuePair key="route_design" value="TRUE" description="" />
   <keyValuePair key="target_device" value="xc7z020" description="" />
   <keyValuePair key="target_family" value="zynq" description="" />
@@ -43,7 +43,7 @@
    <keyValuePair key="numreposblks" value="4" description="" />
    <keyValuePair key="numsysgenblks" value="0" description="" />
    <keyValuePair key="synth_mode" value="OOC_per_IP" description="" />
-   <keyValuePair key="x_iplanguage" value="VHDL" description="" />
+   <keyValuePair key="x_iplanguage" value="VERILOG" description="" />
    <keyValuePair key="x_iplibrary" value="BlockDiagram" description="" />
    <keyValuePair key="x_ipname" value="design_1" description="" />
    <keyValuePair key="x_ipvendor" value="xilinx.com" description="" />
@@ -69,7 +69,7 @@
    <keyValuePair key="core_container" value="NA" description="" />
    <keyValuePair key="iptotal" value="1" description="" />
    <keyValuePair key="x_ipcorerevision" value="20" description="" />
-   <keyValuePair key="x_iplanguage" value="VHDL" description="" />
+   <keyValuePair key="x_iplanguage" value="VERILOG" description="" />
    <keyValuePair key="x_iplibrary" value="ip" description="" />
    <keyValuePair key="x_ipname" value="axi_protocol_converter" description="" />
    <keyValuePair key="x_ipproduct" value="Vivado 2019.2.1" description="" />
@@ -90,7 +90,7 @@
    <keyValuePair key="core_container" value="NA" description="" />
    <keyValuePair key="iptotal" value="1" description="" />
    <keyValuePair key="x_ipcorerevision" value="13" description="" />
-   <keyValuePair key="x_iplanguage" value="VHDL" description="" />
+   <keyValuePair key="x_iplanguage" value="VERILOG" description="" />
    <keyValuePair key="x_iplibrary" value="ip" description="" />
    <keyValuePair key="x_ipname" value="proc_sys_reset" description="" />
    <keyValuePair key="x_ipproduct" value="Vivado 2019.2.1" description="" />
@@ -462,7 +462,7 @@
    <keyValuePair key="iptotal" value="1" description="" />
    <keyValuePair key="use_trace_data_edge_detector" value="0" description="" />
    <keyValuePair key="x_ipcorerevision" value="6" description="" />
-   <keyValuePair key="x_iplanguage" value="VHDL" description="" />
+   <keyValuePair key="x_iplanguage" value="VERILOG" description="" />
    <keyValuePair key="x_iplibrary" value="ip" description="" />
    <keyValuePair key="x_ipname" value="processing_system7" description="" />
    <keyValuePair key="x_ipproduct" value="Vivado 2019.2.1" description="" />
@@ -592,7 +592,7 @@
    <keyValuePair key="output_load" value="5.000000" description="" />
    <keyValuePair key="output_toggle" value="12.500000" description="" />
    <keyValuePair key="package" value="clg484" description="" />
-   <keyValuePair key="pct_clock_constrained" value="28.000000" description="" />
+   <keyValuePair key="pct_clock_constrained" value="27.000000" description="" />
    <keyValuePair key="pct_inputs_defined" value="0" description="" />
    <keyValuePair key="platform" value="nt64" description="" />
    <keyValuePair key="process" value="typical" description="" />
@@ -961,10 +961,10 @@
    <keyValuePair key="-verilog_define" value="default::[not_specified]" description="" />
   </section>
   <section name="usage" level="2" order="2" description="">
-   <keyValuePair key="elapsed" value="00:00:36s" description="" />
+   <keyValuePair key="elapsed" value="00:00:40s" description="" />
    <keyValuePair key="hls_ip" value="0" description="" />
-   <keyValuePair key="memory_gain" value="689.941MB" description="" />
-   <keyValuePair key="memory_peak" value="1155.598MB" description="" />
+   <keyValuePair key="memory_gain" value="702.375MB" description="" />
+   <keyValuePair key="memory_peak" value="1167.863MB" description="" />
   </section>
  </section>
  <section name="unisim_transformation" level="1" order="10" description="">
@@ -1010,32 +1010,42 @@
  <section name="vivado_usage" level="1" order="11" description="">
   <section name="gui_handlers" level="2" order="1" description="">
    <keyValuePair key="addrepositoryinfodialog_ok" value="1" description="" />
-   <keyValuePair key="addrepositoryinfodialog_repository_tree" value="2" description="" />
-   <keyValuePair key="basedialog_ok" value="7" description="" />
+   <keyValuePair key="addrepositoryinfodialog_repository_tree" value="1" description="" />
+   <keyValuePair key="addresstreetablepanel_address_tree_table" value="5" description="" />
+   <keyValuePair key="basedialog_cancel" value="3" description="" />
+   <keyValuePair key="basedialog_ok" value="6" description="" />
    <keyValuePair key="basedialog_yes" value="1" description="" />
    <keyValuePair key="boardchooser_board_table" value="1" description="" />
    <keyValuePair key="coreandinterfacesbasetreetablepanel_add_repository" value="1" description="" />
-   <keyValuePair key="coretreetablepanel_core_tree_table" value="7" description="" />
-   <keyValuePair key="filesetpanel_file_set_panel_tree" value="3" description="" />
-   <keyValuePair key="flownavigatortreepanel_flow_navigator_tree" value="5" description="" />
+   <keyValuePair key="coretreetablepanel_core_tree_table" value="11" description="" />
+   <keyValuePair key="filesetpanel_file_set_panel_tree" value="2" description="" />
+   <keyValuePair key="flownavigatortreepanel_flow_navigator_tree" value="8" description="" />
    <keyValuePair key="gettingstartedview_create_new_project" value="1" description="" />
+   <keyValuePair key="pacommandnames_auto_connect_target" value="1" description="" />
    <keyValuePair key="pacommandnames_create_top_hdl" value="1" description="" />
-   <keyValuePair key="pacommandnames_reports_window" value="1" description="" />
+   <keyValuePair key="pacommandnames_zoom_out" value="6" description="" />
    <keyValuePair key="paviews_project_summary" value="1" description="" />
+   <keyValuePair key="programdebugtab_program_device" value="1" description="" />
    <keyValuePair key="projectnamechooser_project_name" value="1" description="" />
    <keyValuePair key="rsbapplyautomationbar_run_block_automation" value="1" description="" />
    <keyValuePair key="rsbapplyautomationbar_run_connection_automation" value="1" description="" />
    <keyValuePair key="systembuilderview_add_ip" value="1" description="" />
+   <keyValuePair key="systemtreeview_system_tree" value="1" description="" />
   </section>
   <section name="java_command_handlers" level="2" order="2" description="">
-   <keyValuePair key="coreview" value="2" description="" />
+   <keyValuePair key="autoconnecttarget" value="1" description="" />
+   <keyValuePair key="coreview" value="1" description="" />
    <keyValuePair key="createblockdesign" value="1" description="" />
    <keyValuePair key="createtophdl" value="1" description="" />
    <keyValuePair key="customizecore" value="1" description="" />
+   <keyValuePair key="launchprogramfpga" value="2" description="" />
    <keyValuePair key="newproject" value="1" description="" />
+   <keyValuePair key="openhardwaremanager" value="2" description="" />
+   <keyValuePair key="openrecenttarget" value="1" description="" />
+   <keyValuePair key="programdevice" value="1" description="" />
    <keyValuePair key="runbitgen" value="1" description="" />
    <keyValuePair key="runsynthesis" value="1" description="" />
-   <keyValuePair key="showview" value="1" description="" />
+   <keyValuePair key="zoomout" value="7" description="" />
   </section>
   <section name="other_data" level="2" order="3" description="">
    <keyValuePair key="guimode" value="1" description="" />
@@ -1065,7 +1075,7 @@
    <keyValuePair key="simulator_language" value="Mixed" description="" />
    <keyValuePair key="srcsetcount" value="2" description="" />
    <keyValuePair key="synthesisstrategy" value="Vivado Synthesis Defaults" description="" />
-   <keyValuePair key="target_language" value="VHDL" description="" />
+   <keyValuePair key="target_language" value="Verilog" description="" />
    <keyValuePair key="target_simulator" value="XSim" description="" />
    <keyValuePair key="totalimplruns" value="5" description="" />
    <keyValuePair key="totalsynthesisruns" value="5" description="" />

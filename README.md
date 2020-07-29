@@ -37,7 +37,7 @@ For understanding why these both folders needed, are explained in section "Getti
 The C-Code must be cross-compiled for Petalinux. If you can compile directly on the ARM Controller do it. I can't, so I used the command 
 
 ```
-arm-linux-gnueabihf-gcc testcode.c -o output
+arm-linux-gnueabihf-gcc code.c -o output
 ```
 The Code should compile without any warnings or errors. Incase of problems contact me. 
 
@@ -53,11 +53,13 @@ Open Vivado and load the file
 submissions/zynq-system/zynq_system.xpr
 ```
 It should look like on the picture. I used a another path so keep clear of confusion.
+
 ![VHDL](images/vhdl.png "VHDL img")
 
 Then flash the Code to the FPGA. For this no Bitstream-File or anything needed. First we need to connect the Board with Viado.
 On the left side by 
 * Project Manager
+* press "Generate Bitstream" (takes ~30min)
 * press "Open Hardware Manager" (at the bottom)
 * press "Open Target"
 * press "Auto Connect"

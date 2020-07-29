@@ -46,8 +46,8 @@
 -- 
 -- DO NOT MODIFY THIS FILE.
 
--- IP VLNV: fhtw-berlin.de:user:myip:1.0
--- IP Revision: 3
+-- IP VLNV: htw-berlin.de:user:myip:1.0
+-- IP Revision: 1
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;

@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/s0559122/Desktop/oliver_en_de/zynq_system/zynq_system.runs/design_1_processing_system7_0_0_synth_1'
+HD_PWD='H:/Desktop/ultra/zynq_system/zynq_system.runs/design_1_processing_system7_0_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

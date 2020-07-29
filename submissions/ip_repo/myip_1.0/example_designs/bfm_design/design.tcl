@@ -10,7 +10,7 @@ proc create_ipi_design { offsetfile design_name } {
 	set_property CONFIG.ASSOCIATED_RESET ARESETN $ACLK
 
 	# Create instance: myip_0, and set properties
-	set myip_0 [ create_bd_cell -type ip -vlnv fhtw-berlin.de:user:myip:1.0 myip_0]
+	set myip_0 [ create_bd_cell -type ip -vlnv htw-berlin.de:user:myip:1.0 myip_0]
 
 	# Create instance: master_0, and set properties
 	set master_0 [ create_bd_cell -type ip -vlnv  xilinx.com:ip:axi_vip master_0]
@@ -45,7 +45,7 @@ set_property -name {xsim.simulate.runtime} -value {100ms} -objects [get_filesets
 	close $fp
 }
 
-set ip_path [file dirname [file normalize [get_property XML_FILE_NAME [ipx::get_cores fhtw-berlin.de:user:myip:1.0]]]]
+set ip_path [file dirname [file normalize [get_property XML_FILE_NAME [ipx::get_cores htw-berlin.de:user:myip:1.0]]]]
 set test_bench_file ${ip_path}/example_designs/bfm_design/myip_v1_0_tb.sv
 set interface_address_vh_file ""
 

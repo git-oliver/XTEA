@@ -1,10 +1,10 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.2.1 (win64) Build 2729669 Thu Dec  5 04:49:17 MST 2019
--- Date        : Fri Jul  3 14:15:05 2020
--- Host        : FB1-CSE-G530-08 running 64-bit major release  (build 9200)
+-- Date        : Wed Jul 29 16:32:26 2020
+-- Host        : CSE-G530-08 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub
---               c:/Users/s0559122/Desktop/oliver_en_de/zynq_system/zynq_system.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.vhdl
+--               h:/Desktop/ultra/zynq_system/zynq_system.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.vhdl
 -- Design      : design_1_auto_pc_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z020clg484-1

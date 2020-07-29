@@ -46,15 +46,12 @@
 -- 
 -- DO NOT MODIFY THIS FILE.
 
--- IP VLNV: fhtw-berlin.de:user:myip:1.0
--- IP Revision: 3
+-- IP VLNV: htw-berlin.de:user:myip:1.0
+-- IP Revision: 1
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;
-
-LIBRARY xil_defaultlib;
-USE xil_defaultlib.myip_v1_0;
 
 ENTITY design_1_myip_0_0 IS
   PORT (
