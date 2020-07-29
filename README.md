@@ -17,11 +17,7 @@ All of the VHDL-Code was written with Vivado.
 
 ## Structure
 * software -> VHDL-Code & C-Code
-* submissions -> tar-archive for the FPGA
-
-The tar-archive contains two folders. 
-1. ip-repo
-2. zynq-system
+* vivado_files -> All files for flashing the FPGA
 
 For understanding why these both folders needed, are explained in section "Getting started".
 
@@ -50,7 +46,7 @@ Transfer the compiled hex-code (in my case **output**) to the ARM-Controller (Pe
 Open Vivado and load the file
 
 ```
-submissions/zynq-system/zynq_system.xpr
+vivado_files/zynq-system/zynq_system.xpr
 ```
 It should look like on the picture. I used a another path so keep clear of confusion.
 
