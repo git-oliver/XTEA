@@ -1,1 +1,0 @@
--wto "b8c5163dd87f45f28bbb0cceb33b7a7a" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "block_encrypt_reg_behav" "xil_defaultlib.block_encrypt_reg" -log "elaborate.log" 
