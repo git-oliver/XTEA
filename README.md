@@ -12,7 +12,7 @@ This repository was a project of my University [HTW-Berlin](https://www.htw-berl
 1. Encrypt-Algorithm
 2. Decrypt-Algorithm
 
-Each algorithm is written in a single VHDL-File, can be found in folder software. There are no Testbench available, but I tested both VHDL-Files intensively. All the code was running on a [ZedBoard Zynq-7000 ARM/FPGA SoC Development Board](https://www.xilinx.com/products/boards-and-kits/1-elhabt.html.html) which has a ARM-Controller on board. On this ARM-Controller runs a Petalinux. Maybe others Linux Distribution works alao. The C-Code for communicating with the FPGA is also available on folder software.
+Each algorithm is written in a single VHDL-File, can be found in folder software. There are no Testbench available, but I tested both VHDL-Files intensively. All the code was running on a [ZedBoard Zynq-7000 ARM/FPGA SoC Development Board](https://www.xilinx.com/products/boards-and-kits/1-elhabt.html.html) which has a ARM-Controller on board. On this ARM-Controller runs a Petalinux. Maybe others Linux Distribution works also. The C-Code for communicating with the FPGA is also available on folder software.
 
 ![Zynq Board](images/img_zynq_board.png "Zynq-7000 Board")
 
