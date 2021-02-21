@@ -3,10 +3,6 @@
 ## Questions and reports to 
 [s0559122@htw-berlin.de](mailto:s0559122@htw-berlin.de)
 
-There is a video available on youtube how to create a **Bitstream-File** from a **simple VHDL-File** (Language is german)
-[Video](https://youtube.com)
-
-
 ## Description
 This repository was a project of my University [HTW-Berlin](https://www.htw-berlin.de/) in the subject Embedded Systems, first Master Semester. The Algorithm XTEA is divided into two algorithms.
 1. Encrypt-Algorithm
