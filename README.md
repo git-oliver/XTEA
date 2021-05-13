@@ -40,7 +40,7 @@ The Code should compile without any warnings or errors. Incase of problems conta
 ![C_Code](images/c_code.png "Code to compile")
 
 ### 2.
-Transfer the compiled hex-code (in my case **output**) to the ARM-Controller (Petalinux).
+Transfer (Linux: scp-command is the default tool for this purpose) the compiled hex-code (in my case **output**) to the ARM-Controller (Petalinux).
 
 ### 3.
 Open Vivado and load the file
